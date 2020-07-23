@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.header_name{
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    margin-top: .2em;
+    color: #777;
+
+}
+.header{
+    background-color: rgba(0,0,0,.6);
+     background-image: url("ning-02b-bokeh_1.jpg");
+    background-size: cover;
+    background-blend-mode: multiply ; 
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+.left_row{
+    width:50%;
+    /* background-color: rgba(0,0,0,.6);
+    background-image: url("wp3377142.jpg");
+    background-size: cover;
+    background-blend-mode: multiply ;
+    float: left; */
+}
+.right_row{
+     /* background-color: rgba(0,0,0,.6);
+    background-image: url("wp3377142.jpg");
+    background-size: cover;
+    background-blend-mode: multiply ;  */
+    width:50%;
+    float: left;
+}
+
+.container{
+    margin: 0px;
+    padding :0px;
+    padding-right: 0px;
+    max-width: 100%;
+}
+.main_section{
+    background-color: rgba(235, 202, 202, 0.1);
+    background-size: cover;
+    background-blend-mode: multiply ;
+    border-bottom:1px solid rgba(54, 49, 49, 0.3) ;
+}
+/* .bg-light {
+    background-color: rgba(0,0,0,.6);
+    background-image: url("wp3377142.jpg");
+    background-size: cover;
+    background-blend-mode: multiply ;
+} */
+.col-md-6{
+    padding-right: 0px;
+    /* padding-left: 0px; */
+}
+.row{
+    margin :0px;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+    padding: 0.5%;
+}
+.nav a{
+    padding: .5em;
+    text-decoration: none;
+    color:#fff;
+    display: inline-block;
+}
+.nav a:hover{
+    background-color: rgba(160, 96, 98, 0.3);
+
+}
+.main-nav{
+    padding-left: 30px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+.prof_image{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.name{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Staatliches', cursive;
+    color: rgb(56, 54, 54);
+}
+.about_me{
+    font-size: 20px;
+    color: #777;
+}
+.row{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border-bottom:1px solid rgba(88, 86, 86, 0.3) ; */
+}
+.skills_section{
+    background-color: lightgrey;
+    background-size: cover;
+    background-blend-mode: multiply ;
+}
+.skills_icon{
+    height: 150px;
+    width: 150px;
+    margin-left: 7em;
+    border-radius: 50%;
+} 
+.skills_head{
+    font-size:25px;
+    font-weight: lighter;
+    background-color: #fff;
+    border-bottom:1px solid rgba(54, 49, 49, 0.3) ;
+}
+.icon_title{
+    font-size: medium;
+}
+.cricket{
+    background-color: rgba(0,0,0,.4);
+    background-image: url("cricket.jpg");
+   background-size: cover;
+   background-blend-mode: multiply ; 
+}
+.fishing{
+    background-color: rgba(0,0,0,.4);
+    background-image: url("fishing.jpeg");
+   background-size: cover;
+   background-blend-mode: multiply ; 
+}
+.coding{
+    background-color: rgba(0,0,0,.4);
+    background-image: url("coding.jpeg");
+   background-size: cover;
+   background-blend-mode: multiply ; 
+}
+.body_b{
+    background-color: rgba(0,0,0,.4);  
+    background-image: url("workout.jpeg");
+   background-size: cover;
+   background-blend-mode: multiply ; 
+}
+.hobbies_row{
+
+    background-color:aliceblue
+}
+
+.hobbies{
+    margin-left: 70px;
+    padding-top: 70px;
+    height: 200px;
+
+}
+.text_hobbies{
+
+    font-weight: bold;
+    color: rgba(22, 4, 4, 0.8);
+}
+.bottom-name{
+    font-size: 1.5em;
+}
+
+.main_footer{
+    background-color:lightslategrey;
+    color: white;
+    padding: .25em;
+    
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+    
+}
+.footer_logo li{
+    display: inline-block;
+}
+
+.main_footer_container{
+    align-items: center;
+    display: flex;
+}
+.main_footer_container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.edu_row{
+
+    padding-top: 50px;
+    background-color: lightgrey;
+    padding-bottom: 120px;
+    border-bottom:1px solid rgba(54, 49, 49, 0.3) ;
+}
+.card-body{
+
+    border:1px solid;
+    border-color:lightgray;
+    border-radius: 2.5%;
+
+}
+.card-title{
+
+    border-bottom:1px solid rgba(54, 49, 49, 0.3) ;
+}
+.bg-light {
+    background-color: rgba(0,0,0,.6);
+}
+.nav_button{
+
+    border-color: #fff;
+}
