@@ -16,7 +16,7 @@ body{
 }
 .header{
     background-color: rgba(0,0,0,.6);
-     background-image: url("ning-02b-bokeh_1.jpg");
+     background-image: url("images/ning-02b-bokeh_1.jpg");
     background-size: cover;
     background-blend-mode: multiply ; 
     padding-left: 0px;
@@ -135,25 +135,25 @@ body{
 }
 .cricket{
     background-color: rgba(0,0,0,.4);
-    background-image: url("cricket.jpg");
+    background-image: url("images/cricket.jpg");
    background-size: cover;
    background-blend-mode: multiply ; 
 }
 .fishing{
     background-color: rgba(0,0,0,.4);
-    background-image: url("fishing.jpeg");
+    background-image: url("images/fishing.jpeg");
    background-size: cover;
    background-blend-mode: multiply ; 
 }
 .coding{
     background-color: rgba(0,0,0,.4);
-    background-image: url("coding.jpeg");
+    background-image: url("images/coding.jpeg");
    background-size: cover;
    background-blend-mode: multiply ; 
 }
 .body_b{
     background-color: rgba(0,0,0,.4);  
-    background-image: url("workout.jpeg");
+    background-image: url("images/workout.jpeg");
    background-size: cover;
    background-blend-mode: multiply ; 
 }
